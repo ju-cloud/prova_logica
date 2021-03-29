@@ -1,15 +1,17 @@
-//27) Ler um valor e escrever se é positivo, negativo ou zero.
+// Ler um valor e escrever se é positivo, negativo ou zero.
 
 programa
 {
-	real num
+	
+real num
 	funcao inicio()
 	{
 		escreva("Digite um valor: ")
 		leia(num)
 		
 		se(num == 0){
-			escreva("O valor ", num, " é zero")
+			
+escreva("O valor ", num, " é zero")
 		}senao se(num > 0){
 			escreva("O valor ", num, " é positivo")
 		}senao{
